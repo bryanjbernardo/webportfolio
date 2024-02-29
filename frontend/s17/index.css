@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Figtree', sans-serif;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	background-image: url(https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+	
+	background-size: cover;
+	position: sticky;
+	gap: 3rem;
+}
+
+.nav-item {
+	color: #483D8B;
+	text-shadow: 1px 2px 1px #1d2a52; 
+	font-weight: bold;
+}
+
+.nav-link {
+	font-size: 1.1rem;
+	color:	rgb(250, 187, 125);
+}
+
+#landing {
+	min-width: 25vw;
+}
+
+#name {
+	font-family: 'Special Elite', sans-serif;
+	font-weight: bold;
+	border-bottom: solid 2px #1d2a52;
+}
+
+#title {
+	font-family: 'Special Elite', sans-serif;
+	font-weight: bold;
+}
+
+#intro {
+	text-align: justify;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 1rem;
+}
+
+#profile {
+	min-height: 30vh;
+	border: 2px solid #fcdfa9;
+
+}
+
+.background {
+	background-image: url(https://i.imgur.com/A5TOsaI.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.blue-bg {
+	background-image: url(https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#title-2, #title-3 {
+	font-family: 'Alumni Sans';
+	font-size: 3rem;
+	letter-spacing: 0.2rem;
+}
+
+#projects {
+	padding: 3rem;
+	margin-bottom: 3rem;
+
+}
+
+.container-fluid {
+	padding: ;
+	max-width: 80vw;
+}
+
+#projects h3 {
+	font-family: 'Figtree';
+	text-decoration: underline;
+}
+
+#tools {
+	
+}
+
+.tools-img {
+	border-style: solid;
+	border-color: #fcdfa9;
+	margin-left: 20px;
+	margin-right: 20px;
+}
