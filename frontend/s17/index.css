@@ -5,7 +5,7 @@
 	font-family: 'Figtree', sans-serif;
 }
 
-#navbar	 {
+#navbar {
 	background: linear-gradient(rgba(0,0,0, .5), rgba(0, 0, 0, .5)), url(https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 	background-position: center;
 	background-size: cover;
@@ -31,7 +31,6 @@
 #landing {
 	max-width: 80vw;
 }
-
 
 #name {
 	font-family: 'Special Elite', sans-serif;
@@ -60,7 +59,6 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	
 }
 
 .background {
@@ -84,10 +82,6 @@
 	text-shadow: 1px 2px 1px #1d2a52; 
 }
 
-/*#title-2 {
-	text-shadow: 1px 2px 1px #1d2a52; 
-}*/
-
 #title-5 {
 	font-family: 'Alumni Sans';
 	font-size: 2rem;
@@ -97,9 +91,7 @@
 #projects {
 	padding: 3rem;
 	margin-bottom: 3rem;
-	background: linear-gradient(rgba(0,0,0, .5), rgba(0, 0, 0, .5));
-
-
+	background: linear-gradient(rgba(0,0,0, .3), rgba(255, 255, 255, .9));
 }
 
 .container-fluid {
