@@ -5,13 +5,15 @@
 	font-family: 'Figtree', sans-serif;
 }
 
-.nav {
-	display: flex;
-	justify-content: center;
-	background-image: url(https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-	
+#navbar	 {
+	background: linear-gradient(rgba(0,0,0, .5), rgba(0, 0, 0, .5)), url(https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+	background-position: center;
 	background-size: cover;
-	position: sticky;
+}
+
+.nav {
+/*	display: flex-inline;*/
+	justify-content: center;
 	gap: 3rem;
 }
 
@@ -27,30 +29,38 @@
 }
 
 #landing {
-	min-width: 25vw;
+	max-width: 80vw;
 }
+
 
 #name {
 	font-family: 'Special Elite', sans-serif;
 	font-weight: bold;
+	text-align: center;
 	border-bottom: solid 2px #1d2a52;
 }
 
 #title {
 	font-family: 'Special Elite', sans-serif;
 	font-weight: bold;
+	text-align: center;
+	letter-spacing: 1px;
 }
 
 #intro {
 	text-align: justify;
 	font-family: 'Tajawal', sans-serif;
-	font-size: 1rem;
+	font-size: 1.1rem;
 }
 
 #profile {
 	min-height: 30vh;
-	border: 2px solid #fcdfa9;
-
+	min-width: 30vh;
+	border: 5px double #1d2a52;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 
 .background {
@@ -67,15 +77,28 @@
 	background-size: cover;
 }
 
-#title-2, #title-3 {
+#title-2, #title-3, #title-4 {
 	font-family: 'Alumni Sans';
 	font-size: 3rem;
+	letter-spacing: 0.2rem;
+	text-shadow: 1px 2px 1px #1d2a52; 
+}
+
+/*#title-2 {
+	text-shadow: 1px 2px 1px #1d2a52; 
+}*/
+
+#title-5 {
+	font-family: 'Alumni Sans';
+	font-size: 2rem;
 	letter-spacing: 0.2rem;
 }
 
 #projects {
 	padding: 3rem;
 	margin-bottom: 3rem;
+	background: linear-gradient(rgba(0,0,0, .5), rgba(0, 0, 0, .5));
+
 
 }
 
@@ -89,13 +112,57 @@
 	text-decoration: underline;
 }
 
+#projects p {
+	font-family: 'Alumni Sans';
+	font-size: 21px;
+	letter-spacing: 0.1px;
+	text-align: justify;
+}
+
 #tools {
-	
+	width: 100vw;
+	row-gap: 1rem;
 }
 
 .tools-img {
+	height: 85px;
+	width: 85px;
 	border-style: solid;
 	border-color: #fcdfa9;
-	margin-left: 20px;
-	margin-right: 20px;
+}
+
+#form-col {
+	background-image: url(https://i.imgur.com/A5TOsaI.jpeg);
+	background-size: cover;
+	border: 4px solid #fcdfa9;
+}
+
+#map {
+	/*height: 35vh;
+	width: 35vw;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact {
+	max-width: 90vw;
+}
+
+#form-col label {
+	font-family: 'Special Elite';
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-left: 5px;
+}
+
+.social-img {
+	height: 50px;
+	width: 50px;
+	margin: 1.8rem;
+	border-radius: 5px;
+}
+
+.card { 
+	background: none;
 }
